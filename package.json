@@ -1,0 +1,31 @@
+{
+  "name": "openssl-data-sign",
+  "version": "0.0.1",
+  "description": "Simple module to allow you to sign data.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackfurr/openssl-data-sign.git"
+  },
+  "keywords": [
+    "openssl",
+    "sign",
+    "node"
+  ],
+  "author": "Jack Furr <jackefurr@gmail.com> (https://jackfurr.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jackfurr/openssl-data-sign/issues"
+  },
+  "homepage": "https://github.com/jackfurr/openssl-data-sign#readme",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
