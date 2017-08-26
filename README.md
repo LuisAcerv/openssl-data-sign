@@ -1,6 +1,4 @@
 # openssl-data-sign
-
-OpenSSL Data Sign
 =========
 
 A small library that will sign data using key/certs
