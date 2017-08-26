@@ -1,6 +1,6 @@
 {
   "name": "openssl-data-sign",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple module to allow you to sign data.",
   "main": "index.js",
   "engines": {
@@ -27,5 +27,9 @@
   "devDependencies": {
     "chai": "^4.1.1",
     "mocha": "^3.5.0"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "util": "^0.10.3"
   }
 }
