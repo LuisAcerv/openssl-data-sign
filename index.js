@@ -11,7 +11,7 @@ const spawn = require('child_process').spawn;
  * @param {string} options.ca CA Cert path
  * @return {string}
  */
-module.exports.sign = function(number, locale) {
+module.exports.sign = function(options) {
   return new Promise(function (resolve, reject) {
     options = options || {};
 
